@@ -1,5 +1,5 @@
 ---
-category: linux
+category: java
 published: true
 layout: post
 title: 『 Java 』Java内存分析工具的使用

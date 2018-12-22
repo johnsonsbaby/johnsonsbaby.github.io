@@ -1,0 +1,60 @@
+---
+category: python
+published: true
+layout: post
+title: 『 Python 』统计学——箱形图
+description: 箱形图，又名“盒须图”.
+---
+
+在上一篇文章[统计学——基础概念](../Intro-Statistics/)中讲了均数、众数、中位数、极差、中程数等概念；本文介绍一个新的概念——箱形图（又名盒须图）。
+
+**箱形图**，是一种用作显示一组数据分散情况的统计图，因形状如箱子而得名。
+
+箱形图提供了一种只用5个点对数据集做简单总结的方式。这5个点包括中位数、Q1、Q3、分部状态的最小值和最大值。箱形图很形象的分为中心、延伸以及分部状态的全部范围。按照此概念，我们用箱形图来表展现上文的统计数据。
+
+统计数据：11、5、9、10、3、1、8、10、4、12
+从小到大：1、3、4、5、8、9、10、10、11、12
+
+最小值：1
+最大值：12
+中位数：8.5
+Q1(下四分位，中位数左侧剩余数据的中位数)：4
+Q3(上四分位，中位数右侧剩余数据的中位数)：10
+所有的数据都计算得到了，下面可以开始画箱形图了。
+
+首先，画一条数轴，单位与统计数据单位一致，起点应比样本数据的最小值稍小，长度应不小于样本数据的最大值；
+
+然后，根据样本数据的最小值、最大值、中位数、Q1、Q3在数轴上方标出，并用不同颜色线段标出中位数；
+
+最后将Q1至Q3线段间用实线把外框连接起来，用虚线把Q1和Q3分别到最小值和最大值之间的空白连接起来，至此整个箱形图就绘制完毕了;
+
+先上一张效果图
+
+![屏幕快照 2016-01-06 19.54.43.png](../images/py_web/1395995-b2c487a946192cf0.png)
+
+这里我用Python写了一段测试程序，感兴趣可以试一下，测试代码如下：
+
+<pre><code>
+#!/usr/bin/python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data_url = "https://raw.githubusercontent.com/jsbd/learn/master/python/day02_data_analysis/sample.csv"
+df = pd.read_csv(data_url)
+print '------------- sample describe()------------'
+print df.describe()
+print '------------- show Box-plot --------------'
+plt.show(df.plot(kind = 'box'))
+</code></pre>
+
+或者直接
+> wget https://raw.githubusercontent.com/jsbd/learn/master/python/day02_data_analysis/sample.py
+
+
+![屏幕快照 2016-01-06 20.39.39.png](../images/py_web/1395995-bc5bc3c91964a068.png)
+
+小结，箱形图可以很直观的反映数据的集中趋势，从上图可以看出例子的样本数据集中在靠近中位数的上方。
+
+文中引用的Python模块可以参见[Python模块安装](https://jsbd.github.io/Install-Python-Module)。
+
+如有错误，敬请指正！

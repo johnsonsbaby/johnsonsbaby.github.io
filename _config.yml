@@ -1,0 +1,23 @@
+# auto: true
+
+markdown: kramdown
+highlighter: rouge
+paginate: 8
+permalink: /:title
+encoding: UTF-8
+gems: [jekyll-paginate]
+
+title: 静思冰点
+url: https://jsbd.github.io
+feed: /feed.xml
+author_info: <a href="https://jsbd.github.io/">静思冰点</a>
+
+myblog:
+  gavatar: images/avatar.png
+  gpname: jsbd
+  github: https://github.com/jsbd
+  email: mailto:jingsibingdian@foxmail.com
+  coverimgs: []
+  postbgimg: []
+
+categories: [git, linux, java, python, books, web]

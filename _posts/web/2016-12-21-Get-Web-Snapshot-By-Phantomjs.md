@@ -3,7 +3,7 @@ category: web
 published: true
 layout: post
 title: 『 前端 』简单网页截屏功能实现
-description: phantomjs组件简单应用
+description: PhantomJS组件简单应用
 ---
 
 ## snapshot.js

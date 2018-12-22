@@ -8,14 +8,14 @@ encoding: UTF-8
 gems: [jekyll-paginate]
 
 title: 静思冰点
-url: https://jsbd.github.io
+url: https://jsbd.gitee.io
 feed: /feed.xml
-author_info: <a href="https://jsbd.github.io/">静思冰点</a>
+author_info: <a href="https://jsbd.gitee.io/">静思冰点</a>
 
 myblog:
   gavatar: images/avatar.png
   gpname: jsbd
-  github: https://github.com/jsbd
+  github: https://gitee.com/jsbd
   email: mailto:jingsibingdian@foxmail.com
   coverimgs: []
   postbgimg: []

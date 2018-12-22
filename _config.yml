@@ -7,7 +7,6 @@ permalink: /:title
 encoding: UTF-8
 gems: [jekyll-paginate]
 
-baseurl: "/jsbd" 
 title: 静思冰点
 url: https://jsbd.gitee.io
 feed: /feed.xml

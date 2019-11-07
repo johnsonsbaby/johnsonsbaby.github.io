@@ -10,7 +10,7 @@ gems: [jekyll-paginate]
 title: 静思冰点
 url: https://jsbd.gitee.io
 feed: /feed.xml
-author_info: <a href="https://jsbd.gitee.io/">静思冰点</a>
+author_info: <a href="https://jsbd.gitee.io/" target="_blank">静思冰点</a>
 
 myblog:
   gavatar: images/avatar.png
@@ -20,4 +20,4 @@ myblog:
   coverimgs: []
   postbgimg: []
 
-categories: [git, linux, java, python, books, web]
+categories: [git, linux, python, web]

@@ -55,6 +55,3 @@ plt.show(df.plot(kind = 'box'))
 
 小结，箱形图可以很直观的反映数据的集中趋势，从上图可以看出例子的样本数据集中在靠近中位数的上方。
 
-文中引用的Python模块可以参见[Python模块安装](https://jsbd.github.io/Install-Python-Module)。
-
-如有错误，敬请指正！

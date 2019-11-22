@@ -39,8 +39,8 @@ Q3(上四分位，中位数右侧剩余数据的中位数)：10
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data_url = "https://raw.githubusercontent.com/jsbd/learn/master/python/day02_data_analysis/sample.csv"
-df = pd.read_csv("simple.csv")
+data_url = "https://gitee.com/jsbd/jsbd/raw/master/data/python/simple.csv"
+df = pd.read_csv(data_url)
 print('------------- sample describe()------------')
 print(df.describe())
 print('------------- show Box-plot --------------')

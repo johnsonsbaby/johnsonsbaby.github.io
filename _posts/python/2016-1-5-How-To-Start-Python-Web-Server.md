@@ -12,14 +12,13 @@ description:
 
 这里推荐使用简单优雅的Python自带功能，进入资源文件所在目录，一句话命令就可以搞定
 
-<pre><code>
+```shell
 $ # python2
 $ python –m SimpleHTTPServer 8080
 
 $ # python3
 $ python -m http.server 8080
-
-</code></pre>
+```
 
 ![Screen Shot 2015-12-31 at 12.15.48.png](../images/py_web/a0f3149b937071e8.png)
 

@@ -2,7 +2,7 @@
 category: linux
 published: true
 layout: post
-title: 『 运维 』在CentOS7.2上安装MySQL5.7.16数据库
+title: 『 Linux 』在CentOS7.2上安装MySQL5.7.16数据库
 description: Install MySQL Database 5.7.16 on CentOS 7.2
 ---
 

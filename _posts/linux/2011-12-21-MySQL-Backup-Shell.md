@@ -2,7 +2,7 @@
 category: linux
 published: true
 layout: post
-title: 『 运维 』MySQL数据库备份脚本
+title: 『 Linux 』MySQL数据库备份脚本
 description: shell about mysql backup
 ---
 

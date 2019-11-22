@@ -2,7 +2,7 @@
 category: linux
 published: true
 layout: post
-title: 『 运维 』Linux常用命令列表
+title: 『 Linux 』常用命令列表
 description: Linux Cheat Sheet
 ---
 

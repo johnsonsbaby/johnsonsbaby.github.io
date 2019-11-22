@@ -2,7 +2,7 @@
 category: linux
 published: true
 layout: post
-title: 『 运维 』Linux Shell In Action
+title: 『 Linux 』Linux Shell In Action
 description: 关于iptables和MySQL数据库建表及备份数据的一些linux命令
 ---
 

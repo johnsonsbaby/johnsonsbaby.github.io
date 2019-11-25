@@ -39,7 +39,7 @@ Q3(上四分位，中位数右侧剩余数据的中位数)：10
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data_url = "https://gitee.com/jsbd/jsbd/raw/master/data/python/simple.csv"
+data_url = "https://jsbd.gitee.io/data/python/simple.csv"
 df = pd.read_csv(data_url)
 print('------------- sample describe()------------')
 print(df.describe())

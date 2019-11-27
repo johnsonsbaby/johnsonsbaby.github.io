@@ -97,3 +97,24 @@ unzip file.zip //解压zip
 6、重启任务调度服务 # service crond start
 7、查看任务执行日志 # tail -f /var/log/cron
 
+
+## 从命令行登陆FTP并下载文件
+
+```shell
+#!/bin/bash
+
+PRE_DAY=`date +%Y-%m-%d -d "-1 days"`
+HOST="ftp_server_ip"
+PORT=ftp_server_port
+USER="username"
+PASS="password"
+
+ftp -niv $HOST $PORT<<EOF
+user $USER $PASS
+bin
+prompt off
+get log_$PRE_DAY.tar.bz2
+bye
+EOF
+
+```

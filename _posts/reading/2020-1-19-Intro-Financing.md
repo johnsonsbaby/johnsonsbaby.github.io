@@ -2,7 +2,7 @@
 category: reading
 published: true
 layout: post
-title: 小白理财入门课总结
+title: 『 理财 』小白理财入门课总结
 description: 构建家庭保障体系，走上财务自由之路；提高自己的财商，从微淼的小白理财入门课开始，真心不是广告贴
 ---
 

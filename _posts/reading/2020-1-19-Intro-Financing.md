@@ -2,11 +2,11 @@
 category: reading
 published: true
 layout: post
-title: 小白理财入门课
+title: 小白理财入门课总结
 description: 构建家庭保障体系，走上财务自由之路；提高自己的财商，从微淼的小白理财入门课开始，真心不是广告贴
 ---
 
-## 小白理财入门课总结
+## 通往财务自由之路
 
 构建家庭保障体系的方法，也是资产分配的科学方法，它包括以下几个部分：
 
@@ -54,7 +54,7 @@ description: 构建家庭保障体系，走上财务自由之路；提高自己�
 ![note](../data/reading/xiaobai/note/05.PNG)
 ![note](../data/reading/xiaobai/note/06.PNG)
 ![note](../data/reading/xiaobai/note/07.PNG)
-![note](../data/reading/xiaobai/note/08.PNG)
+![note](../data/reading/xiaobai/note/08.JPG)
 ![note](../data/reading/xiaobai/note/09.PNG)
 ![note](../data/reading/xiaobai/note/10.PNG)
 ![note](../data/reading/xiaobai/note/11.PNG)
@@ -62,7 +62,7 @@ description: 构建家庭保障体系，走上财务自由之路；提高自己�
 ![note](../data/reading/xiaobai/note/13.PNG)
 ![note](../data/reading/xiaobai/note/14.PNG)
 ![note](../data/reading/xiaobai/note/15.PNG)
-![note](../data/reading/xiaobai/note/16.PNG)
+![note](../data/reading/xiaobai/note/16.JPG)
 ![note](../data/reading/xiaobai/note/17.PNG)
 ![note](../data/reading/xiaobai/note/18.PNG)
 ![note](../data/reading/xiaobai/note/19.PNG)
@@ -73,8 +73,8 @@ description: 构建家庭保障体系，走上财务自由之路；提高自己�
 ![note](../data/reading/xiaobai/note/24.PNG)
 ![note](../data/reading/xiaobai/note/25.PNG)
 ![note](../data/reading/xiaobai/note/26.PNG)
-![note](../data/reading/xiaobai/note/27.PNG)
-![note](../data/reading/xiaobai/note/28.PNG)
+![note](../data/reading/xiaobai/note/27.JPG)
+![note](../data/reading/xiaobai/note/28.JPG)
 ![note](../data/reading/xiaobai/note/29.PNG)
 ![note](../data/reading/xiaobai/note/30.PNG)
 ![note](../data/reading/xiaobai/note/31.PNG)

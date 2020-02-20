@@ -35,7 +35,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 下载完成后执行`ruby -e uninstall`
 
 
-### 3、更换为国内源
+### 3、更换国内源
 
 安装脚本下载下来之后，安装过程中发现总是会被中断掉，原因是brew的代码库大，文件多，网络也慢；比较靠谱的做法是，修改`install`安装脚本中的brew的源码库为国内的镜像库地址，这里我推荐使用中科大(https://mirrors.ustc.edu.cn/)。
 

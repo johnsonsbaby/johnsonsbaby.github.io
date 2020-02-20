@@ -2,14 +2,13 @@
 category: linux
 published: true
 layout: post
-title: 『 Mac 』在mac电脑上安装Homebrew并换源的一次完整记录
-description: Mac电脑上的软件管家
+title: 『 Mac 』在mac上安装Homebrew并换国内源的一次完整记录
+description: Homebrew，mac上的软件管家，简单一条命令就可以实现包管理，而不用关心各种依赖，十分方便快捷。
 ---
 
 ## 使用背景
 
 习惯了使用终端`Terminal`的开发者在Mac平台下难免会用到各种常用的软件，比如下载个QQ音乐、安装个开发环境、安装一些常用命令行工具等等；如果一个一个的去官网下载，就会显得无比麻烦。Homebrew这个Mac平台下的软件管理工具，简直就是懒人开发者的福音；下面就安装及卸载、换源和使用做一下相应的介绍。
-
 
 ## 安装和卸载
 

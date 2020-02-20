@@ -66,7 +66,8 @@ $ git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
 * homebrew/homebrew-apache
 * homebrew/homebrew-portable
 
-环境变量的设置需要根据您当前的终端的情况来设置；
+环境变量的设置需要根据您当前的终端的情况来设置
+
 如果您是`bash`用户：
 
 ```shell

@@ -67,7 +67,8 @@ $ git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
 * homebrew/homebrew-apache
 * homebrew/homebrew-portable
 
-环境变量的设置需要根据您当前的终端的情况来设置；如果您是`bash`用户：
+环境变量的设置需要根据您当前的终端的情况来设置；
+如果您是`bash`用户：
 
 ```shell
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles' >> ~/.bash_profile
@@ -113,7 +114,7 @@ musicbrainz-picard
 果然，根据名称可以看到熟悉的QQ音乐、网易音乐、酷狗音乐等，选择喜欢的安装吧
 
 ```shell
-➜  ~ brew install qqmusic
+$ brew install qqmusic
 Error: No available formula with the name "qqmusic" 
 Found a cask named "qqmusic" instead. Try
 brew cask install qqmusic
@@ -133,7 +134,7 @@ hdiutil: attach: WARNING: ignoring IDME options (obsolete)
 
 还有一些其他常用的命令直接输入`brew`查看官方文档
 ```shell
-➜  ~ brew 
+$ brew 
 Example usage:
 brew search [TEXT|/REGEX/]
 brew info [FORMULA...]

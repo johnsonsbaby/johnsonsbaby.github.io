@@ -5,7 +5,7 @@
 HOMEBREW_PREFIX = "/usr/local".freeze
 HOMEBREW_REPOSITORY = "/usr/local/Homebrew".freeze
 HOMEBREW_CACHE = "#{ENV["HOME"]}/Library/Caches/Homebrew".freeze
-BREW_REPO = "https://github.com/Homebrew/brew.git".freeze
+BREW_REPO = "https://github.com/Homebrew/brew".freeze
 
 # TODO: bump version when new macOS is released
 MACOS_LATEST_SUPPORTED = "10.15".freeze
@@ -379,5 +379,3 @@ ohai "Next steps:"
 puts "- Run `brew help` to get started"
 puts "- Further documentation: "
 puts "    #{Tty.underline}https://docs.brew.sh#{Tty.reset}"
-
-

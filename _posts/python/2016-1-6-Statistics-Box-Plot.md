@@ -35,7 +35,7 @@ Q3(上四分位，中位数右侧剩余数据的中位数)：10
 这里我用Python写了一段测试程序，感兴趣可以试一下，测试代码如下：
 
 ```shell
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -43,9 +43,10 @@ data_url = "https://jsbd.gitee.io/data/python/simple.csv"
 df = pd.read_csv(data_url)
 print('------------- sample describe()------------')
 print(df.describe())
-print('------------- show Box-plot --------------')
-plt.show(df.plot(kind = 'box'))
 
+print('------------- show Box-plot --------------')
+plt.boxplot(df)
+plt.show()
 ```
 
 ![屏幕快照 2016-01-06 20.39.39.png](../images/py_web/1395995-bc5bc3c91964a068.png)

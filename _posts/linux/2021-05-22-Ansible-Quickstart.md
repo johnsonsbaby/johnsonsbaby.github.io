@@ -30,7 +30,7 @@ $ ssh-copy-id root@localhost -p 5025
 创建项目文件夹`ansible-project`，并编写如下三个文件。
 ```shell
 2.1 编写inventory资产列表
-$ cat hosts
+$ cat inventory
 1.1.1.1
 3.3.3.[1:5]
 test01.xxx.com
@@ -48,7 +48,7 @@ lab04 ansible_host=127.0.0.1 ansible_ssh_port=5025
 2.2 编写ansible.cfg
 $ cat ansible.cfg
 [defaults]
-inventory = hosts
+inventory = inventory
 remote_user = root
 
 

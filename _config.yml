@@ -7,16 +7,16 @@ permalink: /:title
 encoding: UTF-8
 gems: [jekyll-paginate]
 
-title: 静思冰点
-url: https://jsbd.gitee.io
+title: Johnsons Baby
+url: https://johnsonsbaby.github.io/
 feed: /feed.xml
-author_info: <a href="https://jsbd.gitee.io/">静思冰点</a>
+author_info: <a href="https://johnsonsbaby.github.io/">Johnsons Baby</a>
 
 myblog:
   gavatar: images/avatar.png
   gpname: jsbd
-  github: https://gitee.com/jsbd
-  email: mailto:jingsibingdian@foxmail.com
+  github: https://github.com/johnsonsbaby
+  email: mailto:johnsonsbaby@126.com
   coverimgs: []
   postbgimg: []
 

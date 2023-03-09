@@ -68,7 +68,7 @@ server {
 #
 gzip on;
 gzip_disable "msie6";
-​
+
 gzip_vary on;
 gzip_proxied any;
 gzip_comp_level 6;

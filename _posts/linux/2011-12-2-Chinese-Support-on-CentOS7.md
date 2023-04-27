@@ -71,7 +71,7 @@ LANG="zh_CN.UTF-8"
 ```shell
 # yum -y install fontconfig
 ```
-安装完成后，你会发现在 /usr/share/ 目录下有一个 fonts 目录
+安装完成后，你会发现在 /usr/share/ 目录下有一个 fonts 目录
 
 ## 8. 进入 fonst 目录在此新建一个chinese 然后给予权限755
 
